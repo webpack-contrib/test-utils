@@ -38,7 +38,7 @@ const modules = (config) => {
             {
               test: config.loader.test || /\.txt$/,
               use: {
-                loader: path.resolve(__dirname, '../../src'),
+                loader: path.resolve(process.cwd(), 'src'),
                 options: config.loader.options || {},
               },
             },
@@ -62,8 +62,8 @@ const plugins = (config) =>
 const output = (config) => {
   return {
     path: path.resolve(
-      __dirname,
-      `../outputs/${config.output ? config.output : ''}`
+      process.cwd(),
+      `test/outputs/${config.output ? config.output : ''}`
     ),
     // publicPath: 'assets/',
     filename: '[name].js',
@@ -75,7 +75,7 @@ export default function(fixture, config, options) {
   // Compiler Config
   config = {
     devtool: config.devtool || false,
-    context: config.context || path.resolve(__dirname, '../../test/fixtures'),
+    context: config.context || path.resolve(process.cwd(), 'test/fixtures'),
     entry: config.entry || `./${fixture}`,
     output: output(config),
     module: modules(config),
