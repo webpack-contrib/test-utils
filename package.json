@@ -60,7 +60,6 @@
     "pre-commit": "^1.0.0",
     "prettier": "^1.0.0",
     "standard-version": "^4.0.0",
-    "webpack": "^4.0.0-alpha.5",
     "webpack-defaults": "^2.0.0-rc.4"
   },
   "engines": {
