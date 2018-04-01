@@ -6,6 +6,12 @@ All notable changes to this project will be documented in this file. See [standa
 ## [0.1.3](https://github.com/webpack-contrib/test-utils/compare/v0.1.2...v0.1.3) (2018-04-01)
 
 
+### Chores
+
+* Apply latest defaults ([fac761f](https://github.com/webpack-contrib/test-utils/commit/fac761f))
+* Clears unused dep with security vuln ([847c1c7](https://github.com/webpack-contrib/test-utils/commit/847c1c7))
+
+
 
 <a name="0.1.2"></a>
 ## [0.1.2](https://github.com/webpack-contrib/test-utils/compare/v0.1.1...v0.1.2) (2018-01-24)
