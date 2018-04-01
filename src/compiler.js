@@ -81,7 +81,7 @@ export default function(fixture, config, options) {
     module: modules(config),
     plugins: plugins(config),
   };
-  
+
   // Compiler Mode
   config = mode(config);
 
