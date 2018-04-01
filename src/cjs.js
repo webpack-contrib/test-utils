@@ -1,3 +1,3 @@
-module.exports = require('./index').default
+module.exports = require('./index').default;
 
-module.exports.dom = require('./index').dom
+module.exports.dom = require('./index').dom;

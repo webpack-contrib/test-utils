@@ -1,13 +1,16 @@
 {
   "name": "@webpack-contrib/test-utils",
   "version": "0.1.2",
-  "author": "Webpack Contrib (@webpack-contrib)",
   "description": "Loader && Plugin Test Helpers",
   "license": "MIT",
+  "repository": "webpack-contrib/test-utils",
+  "author": "Webpack Contrib (@webpack-contrib)",
+  "homepage": "https://github.com/webpack-contrib/test-utils",
+  "bugs": "https://github.com/webpack-contrib/test-utils/issues",
   "main": "dist/cjs.js",
-  "files": [
-    "dist"
-  ],
+  "engines": {
+    "node": ">= 6.9.0 || >= 8.9.0"
+  },
   "scripts": {
     "start": "npm run build -- -w",
     "build": "cross-env NODE_ENV=production babel src -d dist --ignore 'src/**/*.test.js' --copy-files",
@@ -23,13 +26,23 @@
     "release:ci": "conventional-github-releaser -p angular",
     "release:validate": "commitlint --from=$(git describe --tags --abbrev=0) --to=$(git rev-parse HEAD)",
     "security": "nsp check",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "test:coverage": "jest --collectCoverageFrom='src/**/*.js' --coverage",
+    "test": "echo 'Tests Not Yet Implemented'",
+    "test:watch": "echo 'Tests Not Yet Implemented'",
+    "test:coverage": "echo 'Tests Not Yet Implemented'",
     "ci:lint": "npm run lint && npm run security",
-    "ci:test": "npm run test -- --runInBand",
-    "ci:coverage": "npm run test:coverage -- --runInBand",
+    "ci:test": "npm run test",
+    "ci:coverage": "npm run test:coverage",
     "defaults": "webpack-defaults"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "webpack"
+  ],
+  "peerDependencies": {
+    "webpack": "^3.0.0 || ^4.0.0",
+    "jsdom": "^11.0.0"
   },
   "dependencies": {
     "loader-utils": "^1.0.0",
@@ -60,18 +73,9 @@
     "pre-commit": "^1.0.0",
     "prettier": "^1.0.0",
     "standard-version": "^4.0.0",
-    "webpack-defaults": "^2.0.0-rc.4"
+    "webpack": "^4.4.1",
+    "webpack-defaults": "^2.1.4"
   },
-  "engines": {
-    "node": ">= 6.9.0 || >= 8.9.0"
-  },
-  "peerDependencies": {
-    "webpack": "^3.0.0 || ^4.0.0",
-    "jsdom": "^11.0.0"
-  },
-  "homepage": "https://github.com/webpack-contrib/test-utils",
-  "repository": "https://github.com/webpack-contrib/test-utils",
-  "bugs": "https://github.com/webpack-contrib/test-utils/issues",
   "pre-commit": "lint-staged",
   "lint-staged": {
     "*.js": [

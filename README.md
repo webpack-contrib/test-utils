@@ -1,10 +1,3 @@
-[![npm][npm]][npm-url]
-[![node][node]][node-url]
-[![deps][deps]][deps-url]
-[![tests][tests]][tests-url]
-[![coverage][cover]][cover-url]
-[![chat][chat]][chat-url]
-
 <div align="center">
   <img width="200" height="200" src="https://cdn.worldvectorlogo.com/logos/jest.svg">
   <a href="https://webpack.js.org/">
@@ -14,54 +7,30 @@
   <p>Loader && Plugin Test Helpers</p>
 </div>
 
-<h2 align="center">Install</h2>
+[![npm][npm]][npm-url]
+[![node][node]][node-url]
+[![deps][deps]][deps-url]
+[![tests][tests]][tests-url]
+[![chat][chat]][chat-url]
 
-```bash
+## Requirements
+
+This module requires a minimum of Node v6.9.0.
+
+## Getting Started
+
+To begin, you'll need to install `test-utils`:
+
+```console
 npm i -D @webpack-contrib/test-utils
 ```
 
-<h2 align="center">Usage</h2>
+## License
 
-> Coming soon...
+#### [MIT](./LICENSE)
 
-<table>
-  <tbody>
-    <tr>
-      <td align="center">
-        <a href="https://github.com/bebraw">
-          <img width="150" height="150" src="https://github.com/bebraw.png?v=3&s=150">
-          </br>
-          Juho Vepsäläinen
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://github.com/d3viant0ne">
-          <img width="150" height="150" src="https://github.com/d3viant0ne.png?v=3&s=150">
-          </br>
-          Joshua Wiens
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://github.com/michael-ciniawsky">
-          <img width="150" height="150" src="https://github.com/michael-ciniawsky.png?v=3&s=150">
-          </br>
-          Michael Ciniawsky
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://github.com/evilebottnawi">
-          <img width="150" height="150" src="https://github.com/evilebottnawi.png?v=3&s=150">
-          </br>
-          Alexander Krasnoyarov
-        </a>
-      </td>
-    </tr>
-  <tbody>
-</table>
-
-
-[npm]: https://img.shields.io/npm/v/@webpack-contrib/test-utils.svg
-[npm-url]: https://npmjs.com/package/@webpack-contrib/test-utils
+[npm]: https://img.shields.io/npm/v/test-utils.svg
+[npm-url]: https://npmjs.com/package/test-utils
 
 [node]: https://img.shields.io/node/v/test-utils.svg
 [node-url]: https://nodejs.org
@@ -69,7 +38,7 @@ npm i -D @webpack-contrib/test-utils
 [deps]: https://david-dm.org/webpack-contrib/test-utils.svg
 [deps-url]: https://david-dm.org/webpack-contrib/test-utils
 
-[tests]: https://circleci.com/gh/webpack-contrib/test-utils.svg?style=svg
+[tests]: 	https://img.shields.io/circleci/project/github/webpack-contrib/test-utils.svg
 [tests-url]: https://circleci.com/gh/webpack-contrib/test-utils
 
 [cover]: https://codecov.io/gh/webpack-contrib/test-utils/branch/master/graph/badge.svg
