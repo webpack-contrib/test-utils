@@ -76,6 +76,7 @@ export default function(fixture, config, options) {
   config = {
     devtool: config.devtool || false,
     context: config.context || path.resolve(process.cwd(), 'test/fixtures'),
+    optimization: config.optimization,
     entry: config.entry || `./${fixture}`,
     output: output(config),
     module: modules(config),
