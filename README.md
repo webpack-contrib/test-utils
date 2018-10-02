@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="200" height="200" src="https://cdn.worldvectorlogo.com/logos/jest.svg">
+  <img width="200" height="200" src="https://cdn.worldvectorlogo.com/logos/jest-0.svg">
   <a href="https://webpack.js.org/">
     <img width="200" height="200" src="https://webpack.js.org/assets/icon-square-big.svg">
   </a>
